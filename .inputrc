@@ -3,6 +3,6 @@
 "\e[A": history-search-backward
 
 set completion-ignore-case on
-set show-all-if-ambiguous on
 set completion-query-items 10000
-
+set show-all-if-ambiguous on
+set show-all-if-unmodified on
