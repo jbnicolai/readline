@@ -1,3 +1,5 @@
+$include /etc/inputrc
+
 # Don't map arrow keys to command index, also search on typed text
 "\e[B": history-search-forward
 "\e[A": history-search-backward
