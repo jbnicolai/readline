@@ -7,6 +7,10 @@ TAB: menu-complete
 # Shift tab to cycle backwards in autocomplete
 "\e[Z": menu-complete-backward
 
+# Make ^w delete the word, or filename in a path
+"\C-w": unix-filename-rubout
+"": unix-filename-rubout
+
 set completion-ignore-case on
 set completion-query-items 10000
 set show-all-if-ambiguous on
