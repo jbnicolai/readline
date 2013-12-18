@@ -4,6 +4,9 @@
 
 TAB: menu-complete
 
+# Shift tab to cycle backwards in autocomplete
+"\e[Z": menu-complete-backward
+
 set completion-ignore-case on
 set completion-query-items 10000
 set show-all-if-ambiguous on
