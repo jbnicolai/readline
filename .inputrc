@@ -13,6 +13,7 @@ TAB: menu-complete
 
 set mark-symlinked-directories on
 set completion-ignore-case on
+set completion-map-case on
 set completion-query-items 10000
 set show-all-if-ambiguous on
 set show-all-if-unmodified on
