@@ -15,5 +15,5 @@ set mark-symlinked-directories on
 set completion-ignore-case on
 set completion-map-case on
 set completion-query-items 10000
+set page-completions off
 set show-all-if-ambiguous on
-set show-all-if-unmodified on
